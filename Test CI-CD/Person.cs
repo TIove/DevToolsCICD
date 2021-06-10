@@ -25,5 +25,11 @@
         {
             Energy += time;
         }
+
+        public void Eat(int calories)
+        {
+            var energyFromFood = calories / 2000;
+            Energy += energyFromFood;
+        }
     }
 }
