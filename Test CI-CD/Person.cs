@@ -10,7 +10,8 @@
         private int Energy { get; set; }
         
         public bool Walk(int distance)
-        {
+
+     {
             if (distance > Energy)
             {
                 return false;
