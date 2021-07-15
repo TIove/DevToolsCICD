@@ -10,11 +10,12 @@ namespace TestProject
         public void Setup()
         {
             p = new Person(15);
-        }
+        } 
 
-        [Test]
+        [Test] 
         public void ShouldWalk()
         {
+
             Assert.True(p.Walk(10));
         }
         
